@@ -7,13 +7,14 @@ instructions on what needs to be done.
 You will fork this repo and make it private. Then add the following people as collaborators 
 to it:
  - moos3
+ - mark-boost
  
 Once your completed the work. We will pull it down, run it and test it. Your code
 needs to work and function. If we can't call a alb and get a random quote back then it 
 doesn't work and should be served over https.
 
 ## Backstory on our Infrastructure
-So our infrastructure is in AWS and GCP.We are 100% controlled by Terraform / Terragrunt. We do not apply any changes 
+So our infrastructure is in AWS and GCP. We are 100% controlled by Pulumi. We do not apply any changes 
 by hand in environments now except some database commands. Our stack looks like the following:
  - EKS
  - PostgresSQL
@@ -44,7 +45,7 @@ While all candidates have some different goals, we expect to see the following i
 
 If you'd like to do so and have time, we'd love to see any of the following:
 
-1. If you choose to need resources outside of Kubernetes, a snippet of Terraform code that describes the resource(s)
+1. If you choose to need resources outside of Kubernetes, a snippet of pulumi code that describes the resource(s)
 1. Create an endpoint in the app that does something of your choosing to demonstrate basic golang / python abilities and ability
    to quickly understand a small piece of a web framework. Perhaps it can show the current time, or something similar.
 

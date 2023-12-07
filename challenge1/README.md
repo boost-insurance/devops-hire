@@ -1,7 +1,7 @@
 # Challenge 1
 
 You will create a complete infrastructure with a pipeline to build the application. When you write out the code
-please use either terraform or terragrunt. 
+use Pulumi in either GO or Python. 
 
 ### Requirements
 In this challenge you will need to do the following things:
@@ -20,5 +20,5 @@ In this challenge you will need to do the following things:
   - Need to be able to set AWS ACCOUNT ID
   - DNS name with SSL
 
-This has the free rain on how you implement this. This is to see how you think, this will be the building blocks
+This has the free rein on how you implement this. This is to see how you think, this will be the building blocks
 for challenge 2.
